@@ -659,6 +659,27 @@ button {
     margin-right: 70px;
 }
 
+/* form-footer */
+.form-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.form-footer-tytle {
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+
+}
+
+.form-footer-email {}
+
 /*  PORTFOLIO */
 /* buttons-potfolio */
 .buttons-portfolio {
