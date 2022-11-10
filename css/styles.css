@@ -697,6 +697,7 @@ button {
     position: absolute;
     top: 50%;
     right: 50%;
+    fill: currentColor;
 }
 
 .sabmit-footer {
