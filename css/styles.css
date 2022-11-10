@@ -623,6 +623,7 @@ button {
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
+    margin-right: 93px;
 }
 
 .social-links-footer {
@@ -664,6 +665,8 @@ button {
 .footer-form-list {
     display: flex;
     margin-top: 20px;
+
+
 }
 
 .form-footer-title {
@@ -688,7 +691,7 @@ button {
 
     background-color: var(--brand-color);
     border: none;
-    border-radius: 4px;
+
 
 }
 
@@ -711,6 +714,11 @@ button {
     line-height: 1.88;
     letter-spacing: 0.06em;
 
+}
+
+.input-footer {
+    height: 100%;
+    margin-right: 12px;
 }
 
 /*  PORTFOLIO */
