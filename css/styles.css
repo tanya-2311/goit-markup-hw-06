@@ -686,19 +686,17 @@ button {
     position: relative;
     display: inline-block;
     padding: 10px 32px;
-
     min-width: 200px;
-
     background-color: var(--brand-color);
-    border: none;
+
 
 
 }
 
 .sabmit-footer-icon {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    right: 50%;
 }
 
 .sabmit-footer {
