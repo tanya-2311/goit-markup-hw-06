@@ -701,15 +701,16 @@ button {
 .sabmit-footer-icon {
     position: absolute;
     top: 13px;
-    right: 13px;
+    right: 28px;
 
 
 }
 
 .sabmit-footer {
     display: flex;
-    align-items: center;
-    text-align: center;
+
+    /* align-items: center;
+    text-align: center; */
 
     color: var(--secondary-text-color);
 
