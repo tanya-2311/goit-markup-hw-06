@@ -701,8 +701,7 @@ button {
     position: absolute;
     display: inline-block;
 
-    stroke-width: 0;
-    stroke: currentColor;
+    background-color: var(--secondary-text-color);
     fill: currentColor;
 
 }
