@@ -692,7 +692,7 @@ button {
     padding: 10px 32px;
     min-width: 200px;
     background-color: var(--brand-color);
-
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 
 }
@@ -723,8 +723,12 @@ button {
 .input-footer {
     height: 100%;
     width: 60%;
+    background-color: var(--backrground-secondary);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 23px;
     margin-right: 12px;
+    border-radius: 4px;
 }
 
 /*  PORTFOLIO */
