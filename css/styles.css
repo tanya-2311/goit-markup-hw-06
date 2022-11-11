@@ -699,6 +699,8 @@ button {
 
 .sabmit-footer-icon {
     position: absolute;
+    top: 13px;
+    right: 13px;
     overflow: visible;
     background-color: var(--secondary-text-color);
     fill: currentColor;
