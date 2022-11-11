@@ -699,8 +699,7 @@ button {
 
 .sabmit-footer-icon {
     position: absolute;
-    display: inline-block;
-
+    overflow: visible;
     background-color: var(--secondary-text-color);
     fill: currentColor;
 
@@ -724,6 +723,7 @@ button {
 .input-footer {
     height: 100%;
     width: 60%;
+    padding-left: 23px;
     margin-right: 12px;
 }
 
