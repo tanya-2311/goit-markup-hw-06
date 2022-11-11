@@ -660,17 +660,19 @@ button {
 }
 
 /* form-footer */
-.form-footer {}
+.form-footer-email {
+    width: 570px;
+}
 
 .footer-form-list {
     display: flex;
     margin-top: 20px;
 
-
 }
 
 .form-footer-title {
     margin-bottom: 20px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -681,6 +683,8 @@ button {
     color: var(--secondary-text-color);
 
 }
+
+
 
 .button-footer-form {
     position: relative;
@@ -695,9 +699,12 @@ button {
 
 .sabmit-footer-icon {
     position: absolute;
-    top: 50%;
-    right: 50%;
+    display: inline-block;
+
+    stroke-width: 0;
+    stroke: currentColor;
     fill: currentColor;
+
 }
 
 .sabmit-footer {
@@ -717,6 +724,7 @@ button {
 
 .input-footer {
     height: 100%;
+    width: 60%;
     margin-right: 12px;
 }
 
