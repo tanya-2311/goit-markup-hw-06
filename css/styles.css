@@ -871,7 +871,9 @@ button {
     color: var(--primary-text-color);
 }
 
-.modal-form {}
+.modal-form {
+    display: flex;
+}
 
 .form-group-modal {}
 
