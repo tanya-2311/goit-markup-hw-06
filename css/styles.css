@@ -692,11 +692,28 @@ button {
     padding: 10px 32px;
     width: 200px;
     gap: 10px;
+
+    color: var(--secondary-text-color);
     background-color: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
+    transition-property: background-color;
+    transition-duration: var(--trnz-duration);
+    transition-timing-function: var(--trnz-tim-fnct);
+}
+
+.button-footer-form:active {
+    background-color: var(--brand-color);
 
 }
+
+.button-footer-form:hover,
+.button-footer-form:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--button-text-focus);
+
+}
+
 
 .sabmit-footer-icon {
     position: absolute;
@@ -708,13 +725,6 @@ button {
 
 .sabmit-footer {
     display: flex;
-
-    /* align-items: center;
-    text-align: center; */
-
-    color: var(--secondary-text-color);
-
-
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -873,6 +883,8 @@ button {
 
 .modal-form {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .form-group-modal {}
