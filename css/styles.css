@@ -813,6 +813,7 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 10px;
     /* transform: translateX(-50%);
     transform: translateY(-50%); */
     transform: translate(-50%, -50%) scale(1);
@@ -851,6 +852,28 @@ button {
     background-color: transparent;
 
 }
+
+/* modal-form */
+
+.strong-modal-form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-style: normal;
+    margin-bottom: 12px;
+    margin-top: 40px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.modal-form {}
+
+.form-group-modal {}
 
 /* main-portfolio */
 .main-portfolio {
