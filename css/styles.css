@@ -737,7 +737,7 @@ button {
 
     height: 100%;
     width: 60%;
-    background-color: var(--backrground-secondary);
+    background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 23px;
@@ -749,6 +749,12 @@ button {
     transition-timing-function: var(--trnz-tim-fnct);
 }
 
+.input-footer::placeholder {
+    color: var(--main-text-color);
+    font-weight: 400;
+
+}
+
 .input-footer:active {
     background-color: var(--backrground-secondary);
 
@@ -758,7 +764,7 @@ button {
 .input-footer:hover,
 .input-footer:focus {
     color: var(--main-text-color);
-    background-color: var(--backrground-secondary);
+    border-color: var(--icons-color);
 
 
 }
