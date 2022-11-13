@@ -546,51 +546,51 @@
         </div>
       </div>
     </footer>
+    MODAL WINDOW
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="close-button" data-modal-close type="button">
+      <div class="modal" >
+        <button class="close-button"  type="button" data-modal-close >
           <svg class="close-button-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-close-btn"></use>
           </svg>
         </button>
         <strong class="strong-modal-form">Залиште свої дані, ми вам передзвонимо</strong>
-        <form class="modal-form">
+
+        <form class="modal-form" autocomplete="off">
           <div class="form-group-modal">
             <!-- label-name -->
-            <label class="form-fild">
-              <input class="form-input-modal" type="text" name="" />
+            <label class="form-field">
               <span class="span-label-modal">Ім'я</span>
+              <input class="form-input-modal" type="text" name="name" required placeholder=""/>
+              
               <svg class="form-icon-modal" width="18" height="18">
                 <use href="./images/icons.svg#icon-user-form"></use>
               </svg>
             </label>
             <!-- label-phone -->
-            <label class="form-fild">
-              <input class="form-input-modal" type="text" name="" />
+            <label class="form-field">
               <span class="span-label-modal">Телефон</span>
+              <input class="form-input-modal" type="text" name="phone" required placeholder=""/>
+             
               <svg class="form-icon-modal" width="18" height="18">
                 <use href="./images/icons.svg#icon-phone-form"></use>
               </svg>
             </label>
             <!-- label-mail -->
-            <label class="form-fild">
-              <input class="form-input-modal" type="email" name="" />
+            <label class="form-field">
               <span class="span-label-modal">Пошта</span>
+              <input class="form-input-modal" type="email" name="emai" required placeholder=""/>
+              
               <svg class="form-icon-modal" width="18" height="18">
                 <use href="./images/icons.svg#icon-email-form"></use>
               </svg>
             </label>
 
             <!-- label - поле для введееня тексту -->
-            <label class="form-fild">
-              <textarea
-                class="form-masage"
-                name=""
-                cols="30"
-                rows="5"
-                placeholder="Введіть текст"
-              ></textarea>
+            <label class="form-field">
               <span class="span-label-modal">Коментар</span>
+              <textarea class="form-masage" name="comment" rows="8" placeholder="Введіть текст"></textarea>
+              
             </label>
           </div>
           <!-- form-checkbox -->

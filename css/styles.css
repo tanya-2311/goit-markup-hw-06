@@ -882,16 +882,17 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    padding: 10px;
+    padding: 40px 40px;
     /* transform: translateX(-50%);
     transform: translateY(-50%); */
     transform: translate(-50%, -50%) scale(1);
+    z-index: 1000;
     transition: transform;
     transition: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 
     width: 528px;
-    min-height: 581px;
+    height: 581px;
     border-radius: 4px;
     background-color: var(--secondary-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -940,30 +941,56 @@ button {
 }
 
 .modal-form {
+    position: relative;
     display: flex;
+    margin-left: 0;
+    margin-right: 0;
     justify-content: center;
     align-items: flex-start;
 }
 
 .form-group-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 /* label-name, phone, mail */
-.form-fild {
+.form-field {
     position: relative;
-    display: block;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-basis: 448px; */
     margin-bottom: 28px;
 }
 
+.span-label-modal {
+    position: absolute;
+    display: block;
+    top: -18px;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: var(--main-text-color);
+    text-transform: capitalize;
+}
+
+
+
 .form-input-modal {
+    position: relative;
+
     width: 100%;
     height: 40px;
-    margin: 0;
-    padding: 0;
-    padding-left: 42px;
+    margin-bottom: 10px;
+
+    padding: 12px 42px;
     font: inherit;
     font-size: 16px;
     line-height: 1.71;
@@ -976,26 +1003,30 @@ button {
     transition-timing-function: var(--trnz-tim-fnct);
 }
 
-.span-label-modal {
-    position: absolute;
-    top: -18px;
-    left: 0;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
+.form-input-modal:focus,
+.form-input-modal:hover {
+    border: 1px solid var(--brand-color);
 }
+
 
 .form-icon-modal {
     position: absolute;
+
     top: 50%;
     left: 12px;
+    fill: currentColor;
     transform: translateY(-50%);
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 }
 
+.form-input-modal:focus+.form-icon-modal {
+    color: var(--brand-color);
+}
+
 /* form-checkbox */
+.group-modal-checkbox {}
+
 .form-agreement {
     position: relative;
 
@@ -1006,6 +1037,26 @@ button {
     margin-bottom: 28px;
     width: 423px;
     height: 24px;
+
+}
+
+.form-checkbox {
+    appearance: none;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 30px;
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--secondary-text-color);
+    border-radius: 2px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    transition-property: background-color;
+    transition-duration: var(--trnz-duration);
+    transition-timing-function: var(--trnz-tim-fnct);
 
 }
 
