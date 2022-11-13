@@ -677,7 +677,9 @@ button {
 
 }
 
-.form-footer-email {}
+.form-footer-email {
+    /* width: 570px; */
+}
 
 
 
@@ -689,7 +691,7 @@ button {
 
 .footer-form-input {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .input-footer {
@@ -718,7 +720,7 @@ button {
 
 .input-footer::placeholder {
     color: var(--main-text-color);
-    font-weight: 400;
+
 
 }
 
@@ -726,7 +728,6 @@ button {
     background-color: var(--backrground-secondary);
 
 }
-
 
 .input-footer:hover,
 .input-footer:focus {
@@ -736,15 +737,23 @@ button {
 
 }
 
-.form-footer-email {
-    width: 570px;
-}
 
+.footer-form-label {
+    position: absolute;
+
+    top: 50%;
+    left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    transform: translate(0, -50%);
+}
 
 
 .button-footer-form {
     position: relative;
-    display: inline-block;
+    display: flex;
     padding: 10px 32px;
     width: 200px;
     gap: 10px;
@@ -791,17 +800,7 @@ button {
 
 
 
-.footer-form-label {
-    position: absolute;
 
-    top: 50%;
-    left: 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6);
-    transform: translate(0, -50%);
-}
 
 /*  PORTFOLIO */
 /* buttons-potfolio */
