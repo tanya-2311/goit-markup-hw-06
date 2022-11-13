@@ -742,6 +742,16 @@ button {
     padding-left: 23px;
     margin-right: 12px;
     border-radius: 4px;
+
+    transition-property: background-color;
+    transition-duration: var(--trnz-duration);
+    transition-timing-function: var(--trnz-tim-fnct);
+}
+
+.input-footer:hover,
+.input-footer:focus {
+    color: var(--logo-text-color);
+    background-color: var(--secondary-text-color);
 }
 
 /*  PORTFOLIO */
