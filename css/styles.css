@@ -734,6 +734,7 @@ button {
 }
 
 .input-footer {
+
     height: 100%;
     width: 60%;
     background-color: var(--backrground-secondary);
@@ -742,7 +743,6 @@ button {
     padding-left: 23px;
     margin-right: 12px;
     border-radius: 4px;
-    /* color: var(--main-text-color); */
 
     transition-property: color, background-color;
     transition-duration: var(--trnz-duration);
