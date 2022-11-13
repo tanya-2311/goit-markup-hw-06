@@ -742,18 +742,37 @@ button {
     padding-left: 23px;
     margin-right: 12px;
     border-radius: 4px;
+    /* color: var(--main-text-color); */
 
-    transition-property: color;
+    transition-property: color, background-color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 }
 
+.input-footer:active {
+    background-color: var(--backrground-secondary);
+
+}
+
+
 .input-footer:hover,
 .input-footer:focus {
     color: var(--main-text-color);
+    background-color: var(--backrground-secondary);
 
 
+}
 
+.footer-form-label {
+    position: absolute;
+
+    top: 50%;
+    left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    transform: translate(0, -50%);
 }
 
 /*  PORTFOLIO */
