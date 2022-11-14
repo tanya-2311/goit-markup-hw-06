@@ -1147,6 +1147,10 @@ button {
     user-select: none;
 }
 
+.uncheked {
+    border: solid 1px color var(--logo-text-color);
+}
+
 .form-agreement-link {
     color: var(--brand-color);
     /* text-decoration: none; */
