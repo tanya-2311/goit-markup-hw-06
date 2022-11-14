@@ -927,8 +927,12 @@ button {
 
 }
 
+.close-button-icon {
+    fill: currentColor;
+}
+
 .close-button:focus {
-    color: var(--brand-color);
+    fill: var(--brand-color);
 
 }
 
@@ -1107,7 +1111,7 @@ button {
 
 .form-checkbox:checked {
     background-color: var(--brand-color);
-    border-color: transparent;
+    outline: transparent;
 }
 
 .form-agreement-text {
