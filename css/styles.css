@@ -1132,7 +1132,7 @@ button {
     left: 0;
     transform: translateY(-50%);
 
-    transition-property: background-color;
+    transition-property: background-color, color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 
@@ -1140,6 +1140,7 @@ button {
 
 .form-checkbox:checked {
     background-color: var(--brand-color);
+    color: var(--secondary-text-color);
     outline: transparent;
 }
 
