@@ -1138,10 +1138,10 @@ button {
 
 }
 
-/* .form-checkbox:checked {
+.form-checkbox:checked {
     background-color: var(--brand-color);
     outline: transparent;
-} */
+}
 
 
 .form-agreement-text {
