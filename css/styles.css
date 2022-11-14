@@ -887,8 +887,8 @@ button {
     transform: translateY(-50%); */
     transform: translate(-50%, -50%) scale(1);
     z-index: 1000;
-    transition: transform;
-    transition: var(--trnz-duration);
+    transition-property: transform;
+    transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 
     width: 528px;
@@ -921,10 +921,9 @@ button {
     height: 30px;
     background-color: transparent;
 
-    transition: color;
-    transition: var(--trnz-duration);
+    transition-property: color;
+    transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
-
 
 }
 
