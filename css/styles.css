@@ -1049,6 +1049,7 @@ button {
 .form-input-modal:hover,
 .form-input-modal:active {
     border: 1px solid var(--brand-color);
+    outline: none;
 }
 
 
