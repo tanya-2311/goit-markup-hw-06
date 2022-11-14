@@ -1123,6 +1123,7 @@ button {
     position: absolute;
     display: inline-block;
     cursor: pointer;
+    background-image: url(../images/icon\ check.svg);
     margin-bottom: 30px;
     width: 16px;
     height: 15px;
