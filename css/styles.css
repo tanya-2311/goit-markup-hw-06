@@ -1119,7 +1119,7 @@ button {
 }
 
 .form-checkbox {
-    appearance: none;
+    /* appearance: none; */
     position: absolute;
     display: inline-block;
     cursor: pointer;
