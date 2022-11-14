@@ -1153,9 +1153,16 @@ button {
     opacity: 1;
 }
 
+.form-chechbox:checked .form-chechbox-icon .unchecked {
+    overflow: 0;
+}
 
 .form-chechbox-icon .checked {
     opacity: 0;
+}
+
+.form-chechbox:checked .form-chechbox-icon .checked {
+    overflow: 1;
 }
 
 .form-agreement-link {
