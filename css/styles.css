@@ -1154,7 +1154,7 @@ button {
     opacity: 1;
 }
 
-.form-chechbox:checked .form-chechbox-icon .unchecked {
+.form-chechbox:checked+.form-chechbox-icon .unchecked {
     opacity: 0;
 }
 
@@ -1162,7 +1162,7 @@ button {
     opacity: 0;
 }
 
-.form-chechbox:checked .form-chechbox-icon .checked {
+.form-chechbox:checked+.form-chechbox-icon .checked {
     opacity: 1;
 }
 
