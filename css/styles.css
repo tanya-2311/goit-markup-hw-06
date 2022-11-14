@@ -1156,7 +1156,12 @@ button {
 
 .form-chechbox:checked+.form-chechbox-icon .unchecked {
     opacity: 0;
+    transition-property: background-color;
+    transition-duration: var(--trnz-duration);
+    transition-timing-function: var(--trnz-tim-fnct);
 }
+
+
 
 .form-chechbox-icon .checked {
     opacity: 0;
@@ -1164,6 +1169,9 @@ button {
 
 .form-chechbox:checked+.form-chechbox-icon .checked {
     opacity: 1;
+    transition-property: background-color;
+    transition-duration: var(--trnz-duration);
+    transition-timing-function: var(--trnz-tim-fnct);
 }
 
 .form-agreement-link {
