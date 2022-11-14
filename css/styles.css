@@ -1128,7 +1128,7 @@ button {
     width: 16px;
     height: 15px;
     border: 2px solid var(--secondary-text-color);
-    border-radius: 4px;
+    border-radius: 2px;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
@@ -1148,6 +1148,9 @@ button {
 
 .form-agreement-text {
     user-select: none;
+    font-weight: 400;
+    line-height: 1.71;
+    padding-left: 23px;
 }
 
 
