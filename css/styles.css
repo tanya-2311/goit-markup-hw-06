@@ -1003,7 +1003,11 @@ button {
     margin-bottom: 28px;
 }
 
-
+.form-field:focus-within,
+.form-field:hover,
+.form-field:active {
+    color: var(--brand-color);
+}
 
 .span-label-modal {
     position: absolute;
@@ -1028,7 +1032,7 @@ button {
     height: 40px;
     margin-bottom: 0;
 
-    padding: 0 40px;
+    padding: 0 40p;
     font: inherit;
     font-size: 16px;
     line-height: 1.71;
