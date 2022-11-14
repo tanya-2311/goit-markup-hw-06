@@ -1138,17 +1138,24 @@ button {
 
 }
 
-.form-checkbox:checked {
+/* .form-checkbox:checked {
     background-color: var(--brand-color);
     outline: transparent;
-}
+} */
 
 .form-agreement-text {
     user-select: none;
 }
 
-.uncheked {
-    border: solid 1px color var(--logo-text-color);
+
+
+.form-chechbox-icon .unchecked {
+    opacity: 1;
+}
+
+
+.form-chechbox-icon .checked {
+    opacity: 0;
 }
 
 .form-agreement-link {
