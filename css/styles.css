@@ -921,6 +921,20 @@ button {
     height: 30px;
     background-color: transparent;
 
+    transition: color;
+    transition: var(--trnz-duration);
+    transition-timing-function: var(--trnz-tim-fnct);
+
+
+}
+
+.close-button:focus {
+    color: var(--brand-color);
+
+}
+
+.close-button:hover {
+    color: var(--brand-color);
 }
 
 /* modal-form */
