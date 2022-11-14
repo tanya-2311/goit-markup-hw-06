@@ -970,6 +970,16 @@ button {
     align-items: flex-start;
 }
 
+/* .modal-form:focus-within {
+    border-color: var(--brand-color);
+
+}
+
+.form-field:focus-within {
+    color: var(--brand-color);
+
+} */
+
 .form-group-modal {
     /* position: absolute; */
 
@@ -992,6 +1002,8 @@ button {
     /* height: 40px; */
     margin-bottom: 28px;
 }
+
+
 
 .span-label-modal {
     position: absolute;
@@ -1016,7 +1028,7 @@ button {
     height: 40px;
     margin-bottom: 0;
 
-    padding: 0;
+    padding: 0 40px;
     font: inherit;
     font-size: 16px;
     line-height: 1.71;
@@ -1047,9 +1059,9 @@ button {
     transition-timing-function: var(--trnz-tim-fnct);
 }
 
-.form-input-modal:focus-within>.form-icon-modal {
+/* .form-input-modal:focus-within .form-icon-modal {
     color: var(--brand-color);
-}
+} */
 
 
 
