@@ -1047,6 +1047,7 @@ button {
     left: 12px;
     fill: currentColor;
     /* transform: translateY(-50%); */
+    transition-property: color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 }
