@@ -972,23 +972,20 @@ button {
 
 .form-group-modal {
 
-    top: 0;
+    /* top: 0;
     left: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 /* label-name, phone, mail */
 .form-field {
     position: relative;
-    /* display: flex; */
+    display: block;
 
-    /* width: 100%; */
-
-    /* height: 40px; */
     margin-bottom: 10px;
 }
 
@@ -999,12 +996,12 @@ button {
 }
 
 .span-label-modal {
-    position: absolute;
+    /* position: absolute; */
     display: block;
-    top: -18px;
+    /* top: -18px; */
 
     margin-bottom: 4px;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
@@ -1049,7 +1046,7 @@ button {
     top: 50%;
     left: 12px;
     fill: currentColor;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 }
