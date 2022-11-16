@@ -976,6 +976,7 @@ button {
     display: block;
 
     margin-bottom: 10px;
+    color: var(--logo-text-color);
 }
 
 .form-field:focus-within,
@@ -1035,7 +1036,7 @@ button {
 
     top: 50%;
     left: 12px;
-    /* fill: currentColor; */
+    fill: currentColor;
     /* transform: translateY(-50%); */
     transition-property: color;
     transition-duration: var(--trnz-duration);
