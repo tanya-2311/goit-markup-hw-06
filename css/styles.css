@@ -883,6 +883,7 @@ button {
     top: 50%;
     left: 50%;
     padding: 40px 40px;
+
     /* transform: translateX(-50%);
     transform: translateY(-50%); */
     transform: translate(-50%, -50%) scale(1);
@@ -947,10 +948,7 @@ button {
 .strong-modal-form {
     /* display: flex; */
     text-align: center;
-    /* justify-content: center; */
-    /* font-style: normal; */
-    /* margin-bottom: 30px;
-    margin-top: 40px; */
+
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
@@ -970,16 +968,7 @@ button {
 
 
 
-.form-group-modal {
-
-    /* top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-}
+.form-group-modal {}
 
 /* label-name, phone, mail */
 .form-field {
@@ -1046,11 +1035,18 @@ button {
 
     top: 50%;
     left: 12px;
-    fill: currentColor;
+    /* fill: currentColor; */
     /* transform: translateY(-50%); */
     transition-property: color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
+}
+
+.form-icon-modal:focus-withi>input,
+.form-icon-modal:hover>input,
+.form-icon-modal:active {
+
+    color: var(--brand-color);
 }
 
 /* .form-input-modal:focus-within .form-icon-modal {
