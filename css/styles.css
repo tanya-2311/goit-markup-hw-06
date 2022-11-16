@@ -1029,7 +1029,7 @@ button {
     transition-property: border-color, color, transform;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
-    caret-color: var(--logo-text-color);
+    /* caret-color: var(--logo-text-color); */
 }
 
 .form-input-modal:focus-within,
@@ -1037,6 +1037,7 @@ button {
 .form-input-modal:active {
     border: 1px solid var(--brand-color);
     outline: none;
+    color: var(--logo-text-color);
 }
 
 
