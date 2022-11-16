@@ -1112,13 +1112,15 @@ button {
     cursor: pointer;
     background-image: url(../images/icon\ check.svg);
     margin-bottom: 30px;
+
     width: 16px;
     height: 15px;
     border: 2px solid var(--secondary-text-color);
     border-radius: 2px;
     top: 50%;
-    left: 0;
+    left: 17px;
     transform: translateY(-50%);
+
 
     transition-property: background-color, color;
     transition-duration: var(--trnz-duration);
