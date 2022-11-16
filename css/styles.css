@@ -945,13 +945,13 @@ button {
 /* modal-form */
 
 .strong-modal-form {
-    display: flex;
+    /* display: flex; */
     text-align: center;
-    justify-content: center;
-    font-style: normal;
-    margin-bottom: 30px;
-    /* margin-top: 40px; */
-
+    /* justify-content: center; */
+    /* font-style: normal; */
+    /* margin-bottom: 30px;
+    margin-top: 40px; */
+    margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -960,28 +960,17 @@ button {
 }
 
 .modal-form {
-    position: relative;
-    /* display: flex; */
 
-    margin-left: 0;
+    /* margin-left: 0;
     margin-right: 0;
-    margin-bottom: 40px;
+
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
 
-/* .modal-form:focus-within {
-    border-color: var(--brand-color);
 
-}
-
-.form-field:focus-within {
-    color: var(--brand-color);
-
-} */
 
 .form-group-modal {
-    /* position: absolute; */
 
     top: 0;
     left: 0;
@@ -995,12 +984,12 @@ button {
 /* label-name, phone, mail */
 .form-field {
     position: relative;
-    display: flex;
+    /* display: flex; */
 
-    width: 100%;
+    /* width: 100%; */
 
     /* height: 40px; */
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 .form-field:focus-within,
@@ -1036,7 +1025,7 @@ button {
     font: inherit;
     font-size: 16px;
     line-height: 1.71;
-    color: var(--headers-text-color);
+    color: var(--logo-text-color);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
