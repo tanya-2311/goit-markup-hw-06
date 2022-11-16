@@ -1178,7 +1178,7 @@ button {
     margin: 0 auto;
 
     min-width: 200px;
-    padding: 100px 32px;
+    padding: 10px 32px;
     font-weight: 700;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
