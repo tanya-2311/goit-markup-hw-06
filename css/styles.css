@@ -879,6 +879,7 @@ button {
 }
 
 .modal {
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -946,9 +947,9 @@ button {
 /* modal-form */
 
 .strong-modal-form {
-    /* display: flex; */
+    display: flex;
     text-align: center;
-
+    justify-content: center;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
