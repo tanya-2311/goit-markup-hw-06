@@ -923,14 +923,15 @@ button {
     height: 30px;
     background-color: transparent;
 
-    transition-property: color;
-    transition-duration: var(--trnz-duration);
-    transition-timing-function: var(--trnz-tim-fnct);
+
 
 }
 
 .close-button-icon {
     fill: currentColor;
+    transition-property: color;
+    transition-duration: var(--trnz-duration);
+    transition-timing-function: var(--trnz-tim-fnct);
 }
 
 .close-button:hover,
