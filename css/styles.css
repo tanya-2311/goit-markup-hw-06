@@ -678,7 +678,7 @@ button {
 }
 
 .form-footer-email {
-    display: flex;
+
     margin-top: 20px;
 }
 
@@ -689,7 +689,6 @@ button {
 
 
 }
-
 
 .input-footer {
     display: flex;
