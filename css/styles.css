@@ -678,6 +678,7 @@ button {
 }
 
 .form-footer-email {
+    display: flex;
     margin-top: 20px;
 }
 
@@ -689,10 +690,6 @@ button {
 
 }
 
-.footer-form-input {
-    /* position: relative; */
-    /* overflow: hidden; */
-}
 
 .input-footer {
     display: flex;
@@ -949,7 +946,7 @@ button {
 
 .strong-modal-form {
     display: flex;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     margin-bottom: 12px;
     font-weight: 700;
